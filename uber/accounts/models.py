@@ -19,6 +19,7 @@ class Account(BaseModel):
     def name_in_ru(self):
         return (self.name)
 
+
 class Driver(Account):
     has_driver_license = False  # Boolean
     actual_car = None  # None | Integer

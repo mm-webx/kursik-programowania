@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from orders.views import NewOrders, AssignToOrders
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('new-orders/', NewOrders.as_view()),
+    path('assign-to-order/<int:id>/', AssignToOrders.as_view())
 ]

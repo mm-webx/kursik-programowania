@@ -30,5 +30,8 @@ POST /orders/ = create
 GET /orders/12 = get one item
 POST /orders/12 = update one item
 DELETE /orders/12 = delete one item
+
+GET /new_orders/ = get list orders without assigned driver
+GET /assign-to-order/<id> = assign this order to me
     
 GET /nearby_drivers = get available drivers list

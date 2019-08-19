@@ -27,3 +27,6 @@ class Profile(models.Model):
         now = timezone.now().date()
         # TODO: fix it to check months and days also
         return now.year - self.birth_date.year >= 18
+
+    def driver_is_free(self):
+        return not self.user.driver_orders.filter(ended_at=None).exists()

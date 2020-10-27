@@ -1,7 +1,7 @@
 asn1crypto==0.24.0
 bcrypt==3.1.6
 cffi==1.12.1
-cryptography==2.5
+cryptography==3.2
 Django==2.1.7
 gunicorn==19.9.0
 paramiko==2.4.2

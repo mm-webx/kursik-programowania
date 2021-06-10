@@ -2,7 +2,7 @@ asn1crypto==0.24.0
 bcrypt==3.1.6
 cffi==1.12.1
 cryptography==2.5
-Django==2.1.7
+Django==2.2.24
 gunicorn==19.9.0
 paramiko==2.4.2
 pexpect==4.6.0

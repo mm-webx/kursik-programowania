@@ -4,7 +4,7 @@ cffi==1.12.1
 cryptography==2.5
 Django==2.1.7
 gunicorn==19.9.0
-paramiko==2.4.2
+paramiko==2.10.1
 pexpect==4.6.0
 psycopg2==2.7.7
 ptyprocess==0.6.0
